@@ -1,3 +1,9 @@
+.header__container { 
+    display: flex; 
+}
+.header {
+    border-bottom: 1px solid #ECECEC;
+    }
 @media screen and (max-width: 767px) {
    .page-nav {
     display: none;
@@ -5,23 +11,16 @@
    .header__contacts {
     display: none;
    }
-   
+   .header__container {
+    align-items: center;
+    justify-content: space-between;
+  }
    .header__mob-menu-btn {
     background-color: transparent;
     border: none;
     width: 40px;
     height: 40px;
     padding: 0;
-}
-}
-@media screen and (min-width: 480px) {
-.header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.header {
-    border-bottom: 1px solid #ECECEC;
 }
 }
 @media screen and (min-width: 768px) {

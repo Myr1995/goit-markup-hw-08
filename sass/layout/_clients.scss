@@ -5,6 +5,7 @@
  gap: 30px;
 }
 .client-list__link{
+    width: 210px;
     height: 92px;
     background-color: var(--main-white-color);
     border: 1px solid #AFB1B8;
@@ -28,11 +29,6 @@
 .client-list__link:focus & {
     fill: var(--accent-color);
 }
-}
-@media screen and (min-width: 480px) {
-    .client-list__link {
-    width: 210px;
-    }
 }
 @media screen and (min-width: 768px) {
     .client-list__link {

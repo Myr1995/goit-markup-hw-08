@@ -113,6 +113,8 @@ min-width: 200px;
 transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
 }
 .modal__form-check-desc {
+font-size: 12px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 color: var(--main-text-color);
 margin-top: 20px;
@@ -145,12 +147,7 @@ transition: border var(--transition-dur-and-func);
 .modal__form-check-link {
     color: var(--accent-color);
 }
-@media screen and (min-width: 480px) {
-.modal__form-check-desc {
-font-size: 12px;
-line-height: 1.17;
-}
-}
+
 @media screen and (min-width: 1200px) {
 .modal__form-check-desc {
 font-size: 14px;
